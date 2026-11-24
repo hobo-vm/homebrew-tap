@@ -2,10 +2,10 @@
 # scripts/package.sh fills in the url and sha256 and `make release` commits the result to
 # hobo-vm/homebrew-tap as Formula/hobo.rb. Edit the template, not the tap's copy.
 class Hobo < Formula
-  desc "Named macOS, Linux and Windows VMs on Apple Silicon, built from recipes"
+  desc "Ephemeral macOS, Linux and Windows VMs on Apple Silicon, built from recipes"
   homepage "https://hobo.gsquared.app/"
-  url "https://github.com/hobo-vm/hobo/releases/download/v0.2.0/hobo-0.2.0.tar.gz"
-  sha256 "27dd6d41ffaac89a40810658d404ca6cae1c586c3232b04ec0d7d83b437c8dfb"
+  url "https://github.com/hobo-vm/hobo/releases/download/v0.3.0/hobo-0.3.0.tar.gz"
+  sha256 "e4d7a5d94906361228b15bf4772428f597db0188220f7d75813ecd929bf7d01f"
   license "Apache-2.0"
 
   depends_on arch: :arm64
