@@ -4,8 +4,8 @@
 class Hobo < Formula
   desc "Ephemeral macOS, Linux and Windows VMs on Apple Silicon, built from recipes"
   homepage "https://hobo.gsquared.app/"
-  url "https://github.com/hobo-vm/hobo/releases/download/v0.3.0/hobo-0.3.0.tar.gz"
-  sha256 "e4d7a5d94906361228b15bf4772428f597db0188220f7d75813ecd929bf7d01f"
+  url "https://github.com/hobo-vm/hobo/releases/download/v0.4.0/hobo-0.4.0.tar.gz"
+  sha256 "279cd4111a9c829c07c1892c3a870138cc32643489fd1b5cfe317fc367f43947"
   license "Apache-2.0"
 
   depends_on arch: :arm64
